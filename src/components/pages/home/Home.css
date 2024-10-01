@@ -1,0 +1,73 @@
+.button {
+	background-color: gray;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	transition: background-color 0.3s, transform 0.2s;
+	cursor: pointer;
+	margin: 10px 5px;
+	border-radius: 5px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 20px;
+}
+
+.button:hover {
+	background-color: #008cba;
+	transform: translateY(-2px);
+}
+
+.dropdown {
+	background-color: #008cba;
+	color: white;
+	border-radius: 4px;
+	padding: 10px 15px;
+	margin-left: 10px;
+	border: none;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.dropdown:hover {
+	background-color: #005f7f;
+}
+
+aside {
+	width: 45%;
+	float: right;
+	background-color: whitesmoke;
+	padding: 10px;
+	margin-right: 20px;
+	height: 450px;
+	overflow-y: auto;
+	border-radius: 4px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 20px;
+}
+
+.map-container {
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+	aside {
+		width: 100%;
+		float: none;
+	}
+
+	.button {
+		padding: 8px 15px;
+		font-size: 12px;
+	}
+
+	.dropdown {
+		padding: 8px;
+	}
+}
